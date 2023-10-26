@@ -1,0 +1,23 @@
+.main-heading {
+  text-align: center;
+}
+
+.green {
+  background-color: rgb(45, 226, 45);
+}
+
+.heading-style {
+  font-family: Arial;
+}
+
+.green h2 {
+  color: white;
+}
+
+.cyan {
+  color: cyan;
+}
+
+#strike {
+  text-decoration: line-through;
+}

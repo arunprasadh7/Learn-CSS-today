@@ -1,0 +1,30 @@
+.color-names {
+  color: red;
+}
+
+.rgb {
+  color: rgb(100, 200, 100);
+}
+
+.rgba {
+  color: rgba(100, 200, 300, 1);
+}
+
+.hexadecimal {
+  color: #44ff55;
+}
+
+.hsl {
+  color: hsl(50, 80%, 60%);
+}
+
+.color-names h3,
+.rgb h3,
+.rgba h3,
+.hexadecimal h3,
+.hsl h3 {
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: bolder;
+}
