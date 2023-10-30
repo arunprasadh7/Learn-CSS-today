@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  /* font-size: 20px; */
+}
+
+.btn {
+  background: hsl(0, 0%, 90%);
+  border: 1px solid hsl(0, 0%, 70%);
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em, 1em;
+  border-radius: 0.3em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: hsl(0, 0%, 80%);
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 70%);
+}
+
+.btn-primary {
+  background-color: hsl(271, 70%, 50%);
+  border-color: hsl(271, 50%, 30%);
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: hsl(271, 70%, 40%);
+  box-shadow: 0 0 5px 0 hsl(271, 50%, 30%);
+}
+
+.btn-accent {
+  background-color: hsl(200, 100%, 40%);
+  border-color: hsl(200, 100%, 20%);
+  color: white;
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+  background-color: hsl(200, 100%, 30%);
+  box-shadow: 0 0 5px 0 hsl(200, 100%, 20%);
+}
+
+.btn-danger {
+  background-color: red;
+  border-color: rgb(109, 12, 12);
+  color: white;
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: rgb(221, 12, 12);
+  box-shadow: 0 0 5px 0 rgb(109, 12, 12);
+}
+
+.btn-large {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: 0.75rem;
+}
+
+.btn-pill {
+  border-radius: 10000px;
+}
+
+.btn-custom {
+  background: linear-gradient(to right, teal, rgb(201, 85, 43));
+  color: white;
+  border-color: darkred;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+  background: linear-gradient(to right, rgb(187, 52, 28), teal);
+  border-color: black;
+  box-shadow: 0 0 5px 0 black;
+}
