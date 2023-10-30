@@ -1,0 +1,22 @@
+.submit:hover {
+  background-color: deeppink;
+}
+
+.submit:focus {
+  background-color: yellowgreen;
+}
+
+.name:required {
+  background-color: aqua;
+}
+
+.name:focus {
+  background-color: brown;
+}
+.name:hover {
+  background-color: wheat;
+}
+
+.email:disabled {
+  background-color: purple;
+}
