@@ -1,0 +1,40 @@
+.item {
+  width: 75px;
+  background-color: #777;
+  color: yellow;
+  margin: 10px;
+}
+
+.container {
+  background-color: #ccc;
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  /* flex-wrap: wrap; */
+}
+
+.item1 {
+  min-height: 50px;
+  order: 3;
+}
+
+.item2 {
+  min-height: 100px;
+  /* flex-grow: 2; */
+  /* flex-basis: 0; */
+  order: 1;
+}
+
+.item3 {
+  min-height: 150px;
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+  order: 2;
+}
+
+/* other properties
+--flexshrink
+self-align -:toalign elements in the cross axix
+inline-flex : displays flex box as inline element
+*/
