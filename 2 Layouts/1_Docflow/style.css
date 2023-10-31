@@ -1,0 +1,22 @@
+.div1 {
+  background-color: red;
+}
+
+.span1 {
+  background-color: orange;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+}
+
+.span2 {
+  background-color: green;
+  display: none;
+}
+
+.div2 {
+  background-color: aqua;
+}
